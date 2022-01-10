@@ -1,0 +1,132 @@
+.doviz-menu {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  background-color: #063f8c;
+}
+
+.doviz-menu li {
+  margin: 10px;
+  list-style-type: none;
+}
+
+.doviz-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.bitexen-container {
+  background-color: #074a97;
+  height: 46px;
+}
+
+.bitexen-container .bitexen-bar .tickers {
+  width: 630px;
+  height: 36px;
+  left: 265px;
+  display: block;
+  position: absolute;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.bitexen-container .bitexen-bar {
+  background-image: url(https://static.doviz.com/images/bitexen_desktop_bar.jpg);
+  background-repeat: no-repeat;
+  width: 1100px;
+  height: 36px;
+  cursor: pointer;
+  margin: 0 auto;
+  position: relative;
+}
+
+.z {
+  color: #fff;
+  background-color: #0c65c7;
+  padding: 0px 5px;
+  border-radius: 14px;
+  font-size: 14px;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.title {
+  width: 440px;
+  font-weight: 600;
+}
+
+.desc {
+  color: #063f8c;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.time {
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+.second-container {
+  display: grid;
+  grid-template-columns: 240px 240px;
+  margin-left: 21rem;
+  margin-top: 1rem;
+  width: 340px;
+}
+
+.title1 {
+  font-size: 17px;
+  font-weight: 600;
+  width: 240px;
+}
+
+.video {
+  position: relative;
+  margin-bottom: -440px;
+  margin-left: 540px;
+  bottom: 295px;
+  width: 440px;
+  height: 440px;
+}
+
+.item,
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6 {
+  display: flex;
+  flex-direction: column;
+}
+
+.coin1 {
+  font-size: 12px;
+  opacity: 0.7;
+  position: relative;
+  bottom: 1px;
+}
+
+.coin {
+  font-size: 22px;
+  font-weight: bold;
+  position: relative;
+  bottom: 2px;
+  color: rgb(255, 255, 255);
+}
